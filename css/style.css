@@ -851,7 +851,26 @@ h2.testimonial-title {
 
 
 
-  
+/* ------------------------------
+  Game Page Start
+----------------------------------- */
+.game-page{
+  padding: 60px 0px 80px 0px;
+  text-align: center;
+}
+
+h2.game-page-title{
+  font-size: var(--font-size-heading-2);
+  color: var(--black);
+  font-weight: var(--fw-700);
+  padding-bottom: 20px;
+}
+/* ---------------------------------
+  Game Page End
+--------------------------------------- */
+
+
+
 /* -------------------------------
   Footer Start
 ----------------------------------- */
@@ -887,7 +906,7 @@ p.footer-p-a > a{
 }
 
 p.footer-p-a > a:hover {
-  color: #0abaff !important;
+  color: #0eeb8f !important;
   text-decoration: underline;
 }
 
@@ -919,7 +938,7 @@ p.footer-p-a > a:hover {
 }
 
 .copyright-context > p > a:hover{
-  color: #0abaff !important;
+  color: #0eeb8f !important;
 }
 
 .footer-cp-bg {
@@ -934,38 +953,36 @@ p.footer-p-a > a:hover {
 
 .footer-txt > h2 {
   font-size: 40px;
-  font-weight: 700;
-  color: #000000;
+  font-weight: var(--fw-800);
+  color: var(--black);
   word-spacing: 1.6px;
 }
 
 .page-content > h5{
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 600;
-  color: #000000;
+  color: var(--black);
   word-spacing: 1.6px;
   margin: 5px 0px 0px 0px;
+  font-family: var(--font-2-montserrat);
 }
 
-.page-content > p{
-  font-size: 17px;
-  font-weight: 400;
-  color: #313131e5;
-  line-height: 28px;
-  word-spacing: 1.6px;
-  padding: 12px 0px;
-  margin: 0px;
+.page-content > p{    
+  color: var(--oxford-normal-gray);
+  font-size: var(--font-size-p-2);
+  font-weight: var(--fw-400);
+  font-style: normal;
+  line-height: 26px;
+  margin-bottom: 35px;
 }
 
-.page-content > ul > li{
-  font-size: 17px;
-  font-weight: 400;
-  color: #313131e5;
-  padding: 15px 0px;
-  line-height: 28px;
-  word-spacing: 1.6px;
-  padding: 5px 0px;
-  margin: 0px;
+.page-content > ul > li{    
+  color: var(--oxford-normal-gray);
+  font-size: var(--font-size-p-2);
+  font-weight: var(--fw-400);
+  font-style: normal;
+  line-height: 26px;
+  margin-bottom: 12px;
   list-style: decimal-leading-zero;
 }
 
@@ -975,7 +992,7 @@ p.footer-p-a > a:hover {
 }
 
 .page-content > p > a:hover{
-  color: #0abaff !important;
+  color: #0eeb8f !important;
 }
 /* -------------------------------
   Footer End
