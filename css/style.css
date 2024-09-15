@@ -32,8 +32,6 @@
 
 
 
-
-
 /* --------------------------
   Restyle CSS Start
 ---------------------------- */
@@ -78,8 +76,6 @@ body::before {
 /* -------------------------------
   Restyle CSS End
 ---------------------------------- */
-
-
 
 
 
@@ -137,8 +133,6 @@ button.primary-btn-2{
 
 
 
-
-
 /* --------------------------
   Header Section Start
 ------------------------------ */
@@ -179,8 +173,6 @@ button.primary-btn-2{
 /* ----------------------------
   Header Section End
 ------------------------------ */
-
-
 
 
 
@@ -440,8 +432,6 @@ p.top-bonus-p-bottom {
 
 
 
-
-
 /* --------------------------------
   About Section Start
 -----------------------------------*/
@@ -491,8 +481,6 @@ p.top-bonus-p-bottom {
 /* --------------------------------
   About Section End
 ----------------------------------- */
-
-
 
 
 
@@ -659,7 +647,6 @@ h2.choose-title{
 
 
 
-
 /* -----------------------
   Bonus Start
 -------------------------- */
@@ -747,7 +734,6 @@ h2.choose-title{
   top: 12%;
   left: 4%;
 }
-
 
 .bonus-03{
   background-image: url('../images/bonus-bg-03.png');
@@ -947,12 +933,8 @@ p.footer-p-a > a:hover {
   bottom: -15px;
 }
 
-.footer-txt{
-  padding: 0px 40px;
-}
-
 .footer-txt > h2 {
-  font-size: 40px;
+  font-size: var(--font-size-heading-2);
   font-weight: var(--fw-800);
   color: var(--black);
   word-spacing: 1.6px;
@@ -960,7 +942,7 @@ p.footer-p-a > a:hover {
 
 .page-content > h5{
   font-size: 20px;
-  font-weight: 600;
+  font-weight: var(--fw-600);
   color: var(--black);
   word-spacing: 1.6px;
   margin: 5px 0px 0px 0px;

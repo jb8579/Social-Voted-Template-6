@@ -6,10 +6,6 @@
         padding: 20px 0px;
     }
 
-    header.header-section.header-top {
-        padding-top: 70px;
-    }
-
     .header-logo > img {
         width: 160px;
         height: auto;
@@ -294,7 +290,15 @@
         font-size: 14px;
         line-height: 26px;
     }
+    /* -------------------------------------
+        Choose End
+    ---------------------------------------- */
 
+
+    /* ------------------------------------
+        Bonus Start
+    ------------------------------------- */
+    
     .bonus-01 {
         width: 100%;
         height: 450px;
@@ -338,6 +342,12 @@
 
     .bonus-text > h5 {
         margin: 5px 0px;
+        padding-bottom: 15px;
+    }
+
+    .bonus-text > h5 > img{
+        width: 28px;
+        height: auto;
     }
 
     button.primary-btn-2 {
@@ -348,9 +358,10 @@
     .overlay {
         background: rgb(0 0 0 / 34%);
     }
-    /* -------------------------------------
-        Choose End
-    ---------------------------------------- */
+    /* --------------------------------
+        Bonus End
+    ---------------------------------- */
+
 
 
     /* --------------------------------
@@ -401,30 +412,43 @@
     }
 
     .footer-txt {
-        padding: 0px 20px;
         overflow-x: hidden;
+        padding: 0px;
     }
 
     .page-content > h5 {
-        font-size: 26px;
-        line-height: 36px;
+        font-size: 20px;
+        line-height: 28px;
+        padding-bottom: 8px;
     }
 
-    .page-content > p {
-        font-size: 16px !important;
-        line-height: 26px !important;
-        word-spacing: 0px !important;
-    }
-
-    .page-content > ul > li {
-        font-size: 16px !important;
-        line-height: 26px !important;
-        word-spacing: 0px !important;
+    .footer-txt > h2 {
+        font-size: 30px;
+        margin-top: 30px;
+        margin-bottom: -5px;
     }
     /* ------------------------------------
         Footer End
     ---------------------------------------- */
+
+
+
+    /* -------------------------------------
+        Game Page Start
+    ------------------------------------- */
+    h2.game-page-title {
+        font-size: 30px;
+    }
+
+    .game-page {
+        padding: 50px 0px;
+        text-align: center;
+    }
+    /* ----------------------------------
+        Game Page End
+    -------------------------------------- */
 }
+
 
 
 @media (max-width: 400px) {
@@ -509,8 +533,11 @@
 
 
 @media only screen and (max-width: 490px) and (min-width: 401px){
+    /* ----------------------------
+        Game Top List Start
+    ------------------------------- */
     .top-list-TC > a > p {
-        top: -32px;
+        top: -38px;
     }
 
     .top-rating-p {
@@ -527,11 +554,17 @@
         left: 50%;
         transform: translate(0px, -95px);
     }
+    /* ----------------------------------
+        Game Top List End
+    --------------------------------------- */
 }
 
 
 
 @media only screen and (max-width: 360px) and (min-width: 300px){
+    /* ------------------------------
+        Game Top List Start
+    --------------------------------- */
     .top-list-TC > a > p {
         top: -50px;
         transform: translateX(-65%);
@@ -552,6 +585,9 @@
     .brand-name-border-3::after {
         transform: translate(5px, -75px);
     }
+    /* -----------------------------------
+        Game Top List End
+    --------------------------------------- */
 }
 
 
@@ -577,6 +613,7 @@
     -------------------------------------*/
     .game-top-list-card {
         margin: 0px 0px 15px 0px;
+        height: 160px;
     }
 
     .brand-area {
@@ -601,12 +638,12 @@
     }
 
     .top-list-rating > ul > li {
-        font-size: 10px;
-        margin: 0px -2px;
+        font-size: 12px;
+        margin: 0px;
     }
 
     .ratings-nm > p {
-        font-size: 16px;
+        font-size: 34px;
     }
 
     .top-list-rating-area {
@@ -622,49 +659,170 @@
     }
 
     p.top-bonus-p-middle {
-        font-size: 17px;
+        font-size: 16px;
+        padding: 0px;
+    }
+
+    p.top-bonus-p-middle > span{
+        font-size: 20px;
     }
 
     p.top-bonus-p-bottom {
-        font-size: 10px !important;
+        font-size: 14px !important;
     }
 
-    .brand-name-border::after {
+    .brand-name-border-1::after {
         margin: 0px;
         left: 50%;
         transform: translateX(-179px);
-        margin-top: -80px !important;
+        margin-top: -107px !important;
     }
 
     .brand-name-border-2::after {
         margin: 0px;
         left: 50%;
         transform: translateX(-1px);
-        margin-top: -25px !important;
+        margin-top: -107px !important;
     }
 
     .brand-name-border-3::after {
         margin: 0px;
         left: 50%;
         transform: translateX(180px);
-        margin-top: -73px !important;
+        margin-top: -150px !important;
     }
 
-    .top-list-bonus {
+    .game-top-list-bonus {
         text-align: center;
         padding: 0px 0px;
         position: relative;
         top: 22px;
     }
 
-    .footer-license-images {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
+    .brand-game-logo a > img {
+        width: 195px;
+        height: auto;
+        position: relative;
+        top: 50%;
+        transform: translate(-100px, 18px);
+        left: 50%;
+    }
+
+    .top-list-TC > a > p {
+        font-size: 7px;
+    }
+
+    .game-ribbon {
+        transform: translate(-28px, 105px);
     }
     /* ----------------------------------
         Top List End
     ------------------------------------ */
+
+
+
+    /* ------------------------------
+        About Start
+    ---------------------------------- */
+    .about-row {
+        display: flex;
+        align-items: baseline;
+        gap: 50px;
+        flex-direction: column;
+    }
+    /* ----------------------------------
+        About End
+    -------------------------------------- */
+
+
+
+    /* --------------------------------
+        Top Game Start
+    ---------------------------------- */
+    .images-flex-1 > .img-box img {
+        width: 100%;
+        height: auto;
+    }
+
+    .images-flex-2 >.img-box img {
+        width: 100%;
+        height: auto;
+    }
+    /* -------------------------------
+        Top Game End
+    ----------------------------------- */
+
+
+
+    /* ----------------------------------
+        Choose Start
+    ------------------------------------ */
+    .choose-card.pink-bg {
+        padding: 30px;
+    }
+
+    .choose-row-2 {
+        transform: translateX(50%);
+    }
+
+    .choose-card.dark-pink-bg{
+        padding: 30px;
+    }
+    /* ------------------------------------
+        Choose End
+    ---------------------------------------- */
+
+
+    /* ---------------------------------------
+        Bonus Start
+    -------------------------------------- */
+    .bonus-bg-right {
+        width: 80%;
+        height: auto;
+        top: 10%;
+        right: 2%;
+    }
+
+    .bonus-bg-left{
+        width: 80%;
+        height: auto;
+        top: 10%;
+        left: 2%;
+    }
+
+    .bonus-03 {
+        height: 540px;
+    }
+    /* -------------------------------------
+        Bonus End
+    --------------------------------------- */
+
+
+
+    /* ---------------------------------
+        Testimonial Start
+    -------------------------------------- */
+    .client-card-01 {
+        padding: 30px 15px;
+        min-height: 350px;
+    }
+    /* --------------------------------------
+        Testimonial End
+    ---------------------------------------- */
+
+
+    /* ---------------------------------------
+        Footer Start
+    ---------------------------------------- */
+    .copyright-context > p {
+        font-size: 12px;
+        word-spacing: 1.2px;
+        letter-spacing: 0.2px;
+        margin: 0px;
+    }
+    /* -----------------------------------------
+        Footer End
+    ------------------------------------------ */
 }
 
 
@@ -679,6 +837,7 @@
     /* ----------------------------------
         Home End
     ------------------------------------ */
+
 
 
     /* ---------------------------------
@@ -769,8 +928,6 @@
         margin: 0px -1px;
     }
 
-    
-
     .brand-name-border-1::after {
         margin-left: 238px;
         margin-top: -115px !important;
@@ -802,7 +959,6 @@
         Top List End
     ------------------------------------ */
 }
-
 
 
 
@@ -847,6 +1003,8 @@
         max-width:100%
     }
 }
+
+
 
 @media (min-width: 992px){
     body .container {
